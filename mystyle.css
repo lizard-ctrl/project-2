@@ -1,0 +1,81 @@
+
+
+
+body {
+    filter: blur(0px) !important;
+    background: rgb(207,144,197) !important;
+    background: linear-gradient(90deg, rgba(207,144,197,1) 0%, rgba(159,199,201,1) 47%, rgba(153,97,145,1) 100%) !important;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+   h1{
+    background: rgb(207,144,197) !important;
+    background: linear-gradient(90deg, rgba(207,144,197,1) 0%, rgba(159,199,201,1) 47%, rgba(153,97,145,1) 100%) !important;
+   }
+
+    input{
+        background: lightblue;
+        opacity: 60%;
+        color: darkorchid;
+        }
+
+
+      div{
+        filter: blur(0px) !important;
+      }
+        
+        a{
+        background: white;
+        opacity: 50%;
+        color: blueviolet;
+        font-size: x-large;
+        }
+    
+        p{
+            background: white;
+            opacity: 50%;
+            color: blueviolet;
+            font-size: x-large;    
+        }
+
+       
+
+
+img:hover{
+    animation: transition 80s;
+  }
+p:hover{
+    animation: transition 80s;
+  }
+a:hover{
+    animation: transition 80s; 
+}
+h1:hover{
+    animation: transition 80s;
+}
+
+h2:hover{
+    animation: transition 80s;
+}
+
+span:hover{
+    animation: transition 80s;
+}
+
+li:hover{
+    animation: transition 80s; 
+}
+
+section:hover{
+    animation: transition 80s;
+}
+
+body:hover{
+  animation:transition 80s;
+}
+
+@keyframes transition {
+    from {}
+    to { 
+        filter: blur(150px);
+    }
+  }

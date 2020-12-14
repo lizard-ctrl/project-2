@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Rory's First Extension",
+  "name": "Taylors extension",
   "description": "This is my first attempt at a browser extension!",
   "version": "0.1",
   "content_scripts": [
@@ -9,13 +9,14 @@
         "*://*/*",
         "file://*"
       ],
+      "css": ["mystyle.css"],
       "js": [
         "content.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_end"
     }
   ],
   "icons": {
-    "128": "images/icon.png"
+    "128": "images/shilpagupta.jpg"
   }
 }

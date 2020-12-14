@@ -21,3 +21,17 @@ var node;
 while (node = walker.nextNode()) {
   node.nodeValue = node.nodeValue.replace(/trump/gi,'Some Guy');
 }
+
+document.addEventListener('mousemove', (event) => {
+	console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
+});
+
+function showCoords(event) {
+  var cX = event.clientX;
+  var sX = event.screenX;
+  var cY = event.clientY;
+  var sY = event.screenY;
+  var coords1 = "client - X: " + cX + ", Y coords: " + cY;
+  var coords2 = "screen - X: " + sX + ", Y coords: " + sY;
+  console.log(coords1 + "<br>" + coords2);
+}
